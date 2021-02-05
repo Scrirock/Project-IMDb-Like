@@ -87,11 +87,16 @@ select, option{
 
 #separation{
     border: 1px solid #989898;
-    width: 4px;
-    height: 3rem;
+    width: 2px;
+    height: 3.2rem;
     margin-top: 1.4rem;
+    opacity: 0.16;
 }
 
 #line{
-    
+    width: 970px;
+    height: 250px;
+    background: repeating-linear-gradient(-45deg, #fff, #fff 2px, transparent 2px, transparent 9px);
+    -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,0.15) 0, transparent 74%, transparent 85%);
+    margin: auto;
 }
