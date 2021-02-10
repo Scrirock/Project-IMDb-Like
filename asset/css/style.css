@@ -31,54 +31,59 @@ nav{
 
 nav div{
     display: inline-block;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-top: 2.5rem;
 }
 
 #logo{
-    width: 5rem;
-    height: 3rem;
+    width: 6rem;
+    height: 3.1rem;
     color: #1d1d1d;
     background-color: #daac21;
-    padding: 0.2rem;
+    padding: .5rem;
     border-radius: 0.5rem;
     font-size: 2rem;
     margin-top: 1.4rem;
 }
 
 #customSearchBar{
-    width: 65%;
+    width: 45%;
     background-color: white;
     color: #1d1d1d;
     height: 3.5rem;
     border-radius: .5rem;
     margin-top: 1.4rem;
-    padding-top: 0.4rem;
     overflow: hidden;
+    vertical-align: center;
 }
+
 select{
     border: none;
     border-right: 1px solid #989898;
-    height: 3.5rem;
-    margin-top: 0;
-    padding-top: 0;
+    height: 4rem;
+    position: relative;
+    top: -.3rem;
 }
+
 #custom-select{
     margin: 0;
+    vertical-align: center;
 }
 
 .fas.fa-search{
     margin-top: 0.5rem;
+    margin-left: 5rem;
     color: #989898;
 }
 
 #searchBar{
-    width: 80%;
+    width: 77%;
     height: 3.5rem;
     font-size: 2rem;
     outline: none;
     border: none;
+    vertical-align: center;
 }
 
 select, option{
