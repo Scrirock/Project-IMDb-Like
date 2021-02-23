@@ -39,8 +39,13 @@ nav div{
     margin: 1rem;
 }
 
-nav div:hover{
+#menu:hover, #pro:hover, #watchList:hover, #signIn:hover{
     background-color: #323232;
+    cursor: pointer;
+}
+
+#logo{
+    cursor: pointer;
 }
 
 #text{
@@ -66,40 +71,152 @@ nav div:hover{
     height: 3.5rem;
     border-radius: .5rem;
     margin-top: 1.4rem;
-    overflow: hidden;
     vertical-align: center;
 }
 
-select{
-    border: none;
-    border-right: 1px solid #989898;
-    height: 4rem;
+.custom-select-wrapper {
     position: relative;
-    top: -.3rem;
+    top: -.13rem;
+    user-select: none;
+    width: 30%;
+}
+.custom-select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: black;
+}
+.custom-select__trigger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #1f1f1f;
+    height: 3rem;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: .5rem 0 0 .5rem;
+}
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 0;
+    background: #1f1f1f;
+    color: white;
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 2;
+}
+.custom-select.open .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    color: white;
+}
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px 0 22px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    line-height: 4rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.custom-option:hover {
+    cursor: pointer;
+    background-color: #2c2c2c;
+}
+.custom-option.selected {
+    color: #daac21;
 }
 
-#custom-select{
-    margin: 0;
-    vertical-align: center;
+.arrow {
+    position: relative;
+    height: 15px;
+    width: 15px;
+}
+.arrow::before, .arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0.15rem;
+    height: 100%;
+    transition: all 0.3s;
+}
+.arrow::before {
+    left: -5px;
+    transform: rotate(45deg);
+    background-color: #394a6d;
+}
+.arrow::after {
+    left: 5px;
+    transform: rotate(-45deg);
+    background-color: #394a6d;
+}
+.open .arrow::before {
+    left: -5px;
+    transform: rotate(-45deg);
+}
+.open .arrow::after {
+    left: 5px;
+    transform: rotate(45deg);
 }
 
-.fas.fa-search{
+#loupe{
     margin-top: 0.5rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     color: #989898;
 }
 
+.iconOption{
+    position: relative;
+    left: -1.3rem;
+}
+
+#dropdown-content{
+    display: none;
+    position: absolute;
+    top: 6rem;
+    background-color: #394a6d;
+    padding: 2rem 2rem 2rem 5rem;
+    z-index: 1;
+}
+
+#dropdown:hover #dropdown-content{
+    display: block;
+}
+
+#dropdown-content:hover #dropdown:hover{
+    display: none;
+}
+
+#buttonTry{
+    background-color: #daac21;
+    border-radius: .5rem;
+    color: black;
+    margin-top: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
 #searchBar{
-    width: 77%;
+    width: 60%;
     height: 3.5rem;
     font-size: 2rem;
     outline: none;
     border: none;
     vertical-align: center;
-}
-
-select, option{
-    font-weight: bold;
 }
 
 #separation{

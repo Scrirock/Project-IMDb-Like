@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+#container{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slideshow {
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.slideshow ul {
+    width: 550%;
+    height: 450px;
+    padding:0; margin:0;
+    list-style: none;
+}
+.slideshow li {
+    float: left;
+    transition-duration: 1s;
+}
+
+.slideshowTRUC {
+    position: relative;
+    top: -6rem;
+    width: 150px;
+    height: 330px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.slideshowTRUC ul {
+    width: 150px;
+    height: 500%;
+    padding:0; margin:0;
+    list-style: none;
+}
+.slideshowTRUC li {
+    transition-duration: 1s;
+}
+
+#slideshowContainer{
+    width: 700px;
+    margin: auto;
+}
+
+#droite, #gauche{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(77, 77, 77, .5);
+    color: white;
+    border: 1px solid white;
+    border-radius: .5rem;
+    padding: 2rem 1.5rem;
+    font-size: 5rem;
+    top: 40%;
+}
+
+#droite{
+    left: 87.4%;
+}
+
+#gauche{
+    left: 0;
+}
+
+#droite:hover, #gauche:hover{
+    color: #daac21;
+}
+
+.slideshow ul:hover{
+    filter: brightness(80%);
+}
+
+#next, #browse{
+    position: absolute;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+#next{
+    color: #daac21;
+}
+
+#browse{
+    color: white;
+    top: 90%;
+    left: 65%;
+}
+
+#browse:hover{
+    cursor: pointer;
+    color: #daac21;
+}

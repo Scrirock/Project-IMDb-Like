@@ -24,6 +24,7 @@
 #logoMenu, #exit{
     background-color: #daac21;
     margin-top: 3.5rem;
+    cursor: pointer;
 }
 
 #logoMenu{
