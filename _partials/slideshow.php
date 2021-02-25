@@ -27,6 +27,8 @@
                 <li><img src="./asset/img/trailer/soul.jpg" alt="" width="150" height="170" /></li>
                 <li><img src="./asset/img/trailer/criminelSquad.jpg" alt="" width="150" height="170" /></li>
                 <li><img src="./asset/img/trailer/dig.jpg" alt="" width="150" height="170" /></li>
+                <li><img src="./asset/img/trailer/gentleman.jpg" alt="" width="150" height="170" /></li>
+                <li><img src="./asset/img/trailer/papillion.jpg" alt="" width="150" height="170" /></li>
             </ul>
         </div>
         <div id="browse">Browse trailers > </div>
