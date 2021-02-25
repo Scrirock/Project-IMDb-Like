@@ -6,17 +6,18 @@
 }
 
 .slideshow {
-    width: 450px;
-    height: 450px;
+    width: 800px;
+    height: 600px;
     overflow: hidden;
     display: inline-block;
     position: relative;
 }
 
 .slideshow ul {
-    width: 550%;
-    height: 450px;
-    padding:0; margin:0;
+    width: 1000%;
+    height: 600px;
+    padding:0;
+    margin:0;
     list-style: none;
 }
 .slideshow li {
@@ -28,15 +29,16 @@
     position: relative;
     top: -6rem;
     width: 150px;
-    height: 330px;
+    height: 480px;
     overflow: hidden;
     display: inline-block;
 }
 
 .slideshowTRUC ul {
     width: 150px;
-    height: 500%;
-    padding:0; margin:0;
+    height: 1000%;
+    padding:0;
+    margin:0;
     list-style: none;
 }
 .slideshowTRUC li {
@@ -44,8 +46,8 @@
 }
 
 #slideshowContainer{
-    width: 700px;
-    margin: auto;
+    width: 1000px;
+    margin-left: 12rem;
 }
 
 #droite, #gauche{
@@ -62,7 +64,7 @@
 }
 
 #droite{
-    left: 87.4%;
+    left: 93%;
 }
 
 #gauche{
@@ -90,7 +92,7 @@
 #browse{
     color: white;
     top: 90%;
-    left: 65%;
+    left: 80.5%;
 }
 
 #browse:hover{

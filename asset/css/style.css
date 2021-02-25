@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -17,7 +18,6 @@ body {
 }
 
 nav{
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
@@ -233,4 +233,10 @@ nav div{
     background: repeating-linear-gradient(-45deg, #fff, #fff 2px, transparent 2px, transparent 9px);
     -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,0.15) 0, transparent 74%, transparent 85%);
     margin: auto;
+}
+
+.title{
+    color: #daac21;
+    font-size: 3rem;
+    margin: 1.7rem 0 1.7rem 12rem;
 }

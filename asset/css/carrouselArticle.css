@@ -1,0 +1,48 @@
+#article {
+    width: 830px;
+    height: 280px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin-left: 12rem;
+}
+
+#article ul {
+    width: 1000%;
+    height: 280px;
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+#article li {
+    float: left;
+    margin-right: 3rem;
+    transition-duration: 1s;
+    border: 1px solid white;
+}
+
+#right, #left{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(77, 77, 77, .5);
+    color: white;
+    border: 1px solid white;
+    border-radius: .5rem;
+    padding: 2rem 1.5rem;
+    font-size: 5rem;
+    top: 25%;
+}
+
+#right{
+    left: 93%;
+}
+
+#left{
+    left: 0;
+}
+
+#right:hover, #left:hover{
+    color: #daac21;
+}
