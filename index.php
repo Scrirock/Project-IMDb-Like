@@ -21,14 +21,8 @@
     </ul>
 </div>
 
-<p>njhg</p><p>nhgd</p><p>jnghyd</p><p>ng</p><p>hyjn</p><p>gyn</p><p>gyh</p><p>nhyg</p><p>ndghy</p><p>nd</p><p>nd</p><p>
-    fsghbftg</p>
-<p>
-    dfhgnyfgn</p>
-<p>
-    dhfgndhfn</p>
-<p>dhgnghn</p>
 
+<?php include "./_partials/post-footer.php"?>
 <?php include "./_partials/footer.php"; ?>
 
 
